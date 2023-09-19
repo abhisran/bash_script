@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Parameter expansion and command substitution used.
+
+echo "Hi ${USER^}, the time right now is $(date '+%H : %M : %S')"
